@@ -1,3 +1,1 @@
-window.onload = function() {
-  console.log("THIS IS THE HELLO OF THE WORLD");
-}
+document.write("Hello World");
