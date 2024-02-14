@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Kaenguruu Dev</title>
+	<meta name="description" content="Developer" />
+	<meta name="keywords" content="C# Godot Developer Dev Python GDScript" />
+	<link rel="stylesheet" href="style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+		rel="stylesheet" />
+</head>
+
+<body>
+	<div class="navbar">
+		<a href="index.html">Home</a>
+		<a href="projects.html">Projects</a>
+		<a href="about.html">About</a>
+		<a href="contact.html">Contact</a>
+	</div>
+
+	<h1>Projects</h1>
+
+	<div class="center_container" class="project-list">
+		<div class="vertical-rectangle" id="project1">
+
+
+			<div class="project-title">
+				<img src="assets/logo.ico" alt="Logo">
+				<h2>OpenVoice</h2>
+			</div>
+
+			<div class="project-description">
+				This is a small description of OpenVoice, the project that I am currently working on.
+			</div>
+
+			<div class="left_button_container" id="project1-buttons">
+				<a href="https://github.com/Kaenguruu24/OpenVoice">
+					<button class="button">Github</button>
+				</a>
+				<a href="projects.html#openvoice">
+					<button class="button" id="toggle-view">More</button>
+				</a>
+			</div>
+
+            <div class="home-project-status extended indev">
+                <h3>In Development</h3>
+            </div>
+
+			<script>
+				document.getElementById('toggle-view').addEventListener('click', function () {
+					document.getElementById('project1').classList.toggle('resized');
+                    document.getElementById('project1-buttons').classList.toggle('resized');
+                    if (document.getElementById('project1').classList.contains('resized'))
+                    { document.getElementById('toggle-view').textContent = "Less"; }
+                    else
+                    { document.getElementById('toggle-view').textContent = "More"; }
+				});
+			</script>
+		</div>
+	</div>
+</body>
+
+</html>
