@@ -1,0 +1,19 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "85.90.244.25",
+            "port": 3306,
+            "driver": "MySQL",
+            "group": "Project DBs",
+            "database": "website_projects",
+            "username": "vscodedb",
+            "name": "WebProjListDB",
+            "password": "open_v0!cE"
+        }
+    ]
+}

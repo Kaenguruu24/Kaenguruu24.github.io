@@ -9,6 +9,14 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
+p {
+    color: #f0f2f5;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
 h2 {
     color: #f0f2f5;
     text-align: center;
@@ -45,6 +53,46 @@ h3 {
 }
 
 .navbar a:hover {
+    background-color: #95a6db;
+    color: black;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer-content {
+    overflow: hidden;
+    background-color: #3a65e9;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 98%;
+}
+
+.socials  {
+    float: right;
+    display: block;
+    color: #f0f2f5;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 9px;
+    text-align: center;
+    text-decoration: none;
+    height: 10px;
+}
+
+.footer-content a {
+    color: #f0f2f5;
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
     background-color: #95a6db;
     color: black;
 }

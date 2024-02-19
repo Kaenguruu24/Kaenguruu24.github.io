@@ -1,0 +1,18 @@
+{
+    "projects" : [
+        {
+            "name" : "OpenVoice",
+            "description" : "OpenVoice is an open source and self hosted alternative to popular voice chat services like Discord and Teamspeak.",
+            "github_repo" : "https://github.com/Kaenguruu24/OpenVoice",
+            "logo" : "assets/openvoice.ico",
+            "status" : "in_dev"
+        },
+        {
+            "name" : "RTO Bot",
+            "description" : "Small Discord bot for the Red Technology Organisation Discord Server.",
+            "github_repo" : "https://github.com/Kaenguruu24/RTOBot",
+            "logo" : "assets/rtologo.webp", 
+            "status" : "in_dev"
+        }
+    ]
+}
